@@ -121,11 +121,11 @@ margin-right: auto;
 }
 
 #item1 {
-  background-image: url(../images/tech.jpg);
+  background-image: url(../images/Hangman.png);
   width: 250px;
   height: 250px; 
   grid-row-start: 1;
-  color: #ffffff;
+  color: #030000;
   text-align: center;
   font-size: 17px;
 }
