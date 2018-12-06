@@ -1,0 +1,43 @@
+html {
+  text-align: center;
+  font-family: 'Oxygen', sans-serif;
+  padding: auto;
+  margin: auto;
+  color: white;
+  background-image: url("../images/main-background.jpg");
+  background-size: 100%;
+}
+
+.header {
+  font-size: 60px;
+  color: rgba(255, 255, 255, 0.918);
+}
+
+.container {
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.925);
+  padding: auto;
+  margin: auto;
+  border: solid;
+  background: rgba(0, 0, 0, 0.267);
+} 
+
+
+.footer {
+  position: fixed;
+  font-size: 12px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #66666600;
+  color: white;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+}
+
+.lose {
+  background-image: url("../images/you-lose.jpg");
+  font-size: 30px;
+}
+
