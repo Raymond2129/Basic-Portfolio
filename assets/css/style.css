@@ -127,26 +127,27 @@ margin-right: auto;
   grid-row-start: 1;
   color: #030000;
   text-align: center;
-  font-size: 17px;
+  font-size: 22px;
 }
 
 #item2 {
-  background-image: url(../images/tech.jpg);
+  background-image: url(../images/rpggame.png);
   width: 250px;
   height: 250px;
   grid-column-start: 2;
   color: #ffffff;
   text-align: center;
-  font-size: 17px;
+  font-size: 22px;
 }
 
 #item3 {
-  background-image: url(../images/tech.jpg);
+  background-image: url(../images/trivia-game.png);
   width: 250px;
   height: 250px;
-  color: #ffffff;
+  color: #bafa09;
   text-align: center;
-  font-size: 17px;
+  font-size: 22px;
+  border: #ffffff;
 }
 
 #item4 {
@@ -156,7 +157,7 @@ margin-right: auto;
   height: 250px;
   color: #ffffff;
   text-align: center;
-  font-size: 17px;
+  font-size: 22px;
 }
 
 #item5 {
@@ -165,6 +166,10 @@ margin-right: auto;
   height: 250px;
   color: #ffffff;
   text-align: center;
-  font-size: 17px;
+  font-size: 22px;
+}
+
+a: link {
+  color: white;
 }
 
