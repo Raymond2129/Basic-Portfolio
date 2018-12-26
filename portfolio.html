@@ -1,4 +1,233 @@
-<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Webpage</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!------------Goofle Fonts----------->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Lato" rel="stylesheet" type="text/css">
+  
+<!----Font Awesome----------->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+<link rel="stylesheet" type="text/css" href="assets/css/new-style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+<!-----------NAVBAR--------------->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">Raymond Province</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="portfolio.html">PORTFOLIO</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#booksigning">Certificates</a></li>
+            <li><a href="#">Extras</a></li>
+            <li><a href="#">Media</a></li> 
+          </ul>
+        </li>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>  
+<!-------------------------------->  
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="assets/images/Hangman-1.png" alt="word guessing game">
+      <div class="carousel-caption">
+        <h3>Word Guessing Game</h3>
+        <p>Are you good with guessing words related to fishing?</p>
+      </div> 
+    </div>
+
+    <div class="item">
+      <img src="assets/images/RPG-1.png" alt="spaceballs rpg">
+      <div class="carousel-caption">
+        <h3>Spaceballs RPG</h3>
+        <p>Lets see if you have what it takes to save either Planet Spaceball or Planet Druidia!</p>
+      </div> 
+    </div>
+
+    <div class="item">
+      <img src="assets/images/Trivia-Game-1.png" alt="trivia game">
+      <div class="carousel-caption">
+        <h3>Astonomy Tivia</h3>
+        <p>Test your knowledge in this Astronomy Trivia Game</p>
+      </div> 
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>  
+<!---------------------------------->
+<div id="about" class="container text-center">
+  <h3>Portfolio</h3>
+  <p><em>I'm a working IT professional that has specialized in accessability within the Department of Vocational Rehabiliation for the last two years as an Accessability Coordinator. I am working on becoming a full stack devoloper and use my ability to troubleshoot issues with technology to futher my carrer and learn new ideas, concepts, languages on a daily basis.</em></p>
+  <p>Below are the projects that I have worked on up to this point. Ensure to expand each selection out to find more about the project. Come back often as I will be contiuning to work on new projects and will post them here as I finish them! Also check out my <a href="index.html">about me</a> section to see a little bit more about me: my work experince, what I excel in and what my hobbies are.</p>
+  <br>
+  <div class="row">
+    
+ <!-----------1st column------------->
+    <div class="col-sm-4">
+      <p class="text-center"><strong><a href="https://raymond2129.github.io/Word-Guessing-Game/">Word Guessing Game<br>(Fishing Edition)</strong></p><br></a>
+      <a href="#book1" data-toggle="collapse">
+        <img src="assets/images/Hangman-1.png" class="cover" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="book1" class="collapse">
+        <p>This ia a fun word guessing game
+        using fishing terms and words!
+        I have included the Bill Dance theme song to play as you guess your words!</p>
+        
+      </div>
+    </div>
+<!-----------2nd column------------->
+    <div class="col-sm-4">
+      <p class="text-center"><strong><a href="https://raymond2129.github.io/unit-4-game/">Simple RPG<br>(Spaceballs Edition)</a></strong></p><br>
+      <a href="#book2" data-toggle="collapse">
+        <img src="assets/images/RPG-1.png" class="cover" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="book2" class="collapse">
+        <p>The evil Spaceballs have wasted all the precious air of Planet Spaceball.
+        Dark Helmet has a plan to steal all the air from their next door neighbor.       
+        Join the fight to save princess Vespa and the air of Planet Druidia!</p>
+        <p>Pick a charcter and see if you can defeat the rest, Enjoy!</p>
+      </div>
+    </div>
+<!-----------3rd column------------->
+    <div class="col-sm-4">
+      <p class="text-center"><strong><a href="https://raymond2129.github.io/TriviaGame/">Trivia Game<br>(Astronomy Edition)</a></strong></p><br>
+      <a href="#book3" data-toggle="collapse">
+        <img src="assets/images/Trivia-Game-1.png" class="cover" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="book3" class="collapse">
+        <p>Do you love Astronomy?</p>
+        <p>Do you love Trivia games?</p>
+        <p>If so this game is for you!!</p>
+        <p>Lets see if any of these questions stump you.</p>
+      </div>
+    </div>
+    <br>
+
+    <hr>
+     <!-----------4th column------------->
+     <div class="col-sm-4">
+        <p class="text-center"><strong><a href="https://raymond2129.github.io/Word-Guessing-Game/">Giphy Amazingness<br>(Enjoy fun gif's)</strong></p><br></a>
+        <a href="#book4" data-toggle="collapse">
+          <img src="assets/images/tech.jpg" class="cover" alt="Random Name" width="255" height="255">
+        </a>
+        <div id="book4" class="collapse">
+          <p>This ia a fun word guessing game
+          using fishing terms and words!
+          I have included the Bill Dance theme song to play as you guess your words!</p>
+          
+        </div>
+      </div>
+  <!-----------5th column------------->
+      <div class="col-sm-4">
+        <p class="text-center"><strong><a href="https://raymond2129.github.io/unit-4-game/">Random Quote Generator<br>(Brighten your day with a Random quote.)</a></strong></p><br>
+        <a href="#book5" data-toggle="collapse">
+          <img src="assets/images/tech.jpg" class="cover" alt="Random Name" width="255" height="255">
+        </a>
+        <div id="book5" class="collapse">
+          <p>The evil Spaceballs have wasted all the precious air of Planet Spaceball.
+          Dark Helmet has a plan to steal all the air from their next door neighbor.       
+          Join the fight to save princess Vespa and the air of Planet Druidia!</p>
+          <p>Pick a charcter and see if you can defeat the rest, Enjoy!</p>
+        </div>
+      </div>
+  <!-----------6th column------------->
+      <div class="col-sm-4">
+        <p class="text-center"><strong><a href="https://raymond2129.github.io/TriviaGame/">Trivia Game<br>(Astronomy Trivia)</a></strong></p><br>
+        <a href="#book6" data-toggle="collapse">
+          <img src="assets/images/tech.jpg" class="cover" alt="Random Name" width="255" height="255">
+        </a>
+        <div id="book6" class="collapse">
+          <p>Do you love Astronomy?</p>
+          <p>Do you love Trivia games?</p>
+          <p>If so this game is for you!!</p>
+          <p>Lets see if any of these questions stump you.</p>
+        </div>
+      </div>
+<!----------- end of columns--------->
+  </div>
+</div>
+<!-----------BLOG SECTION----------> 
+<div id="blog" class="container text-center"> <h3 class="text-center">From The Devoloper</h3> 
+<ul class="nav nav-tabs">
+  <li class="active"><a data-toggle="tab" href="#musings">Photo</a></li>
+  <li><a data-toggle="tab" href="#menu1">INSPIRATION</a></li>
+  <li><a data-toggle="tab" href="#menu2">RANDOM THOUGHTS</a></li>
+</ul>
+
+<div class="tab-content">
+  <div id="musings" class="tab-pane fade in active">
+    <h2>Photo</h2>
+    <img id="image2" src="assets/images/Ray1.jpg">
+  </div>
+  <div id="menu1" class="tab-pane fade">
+    <h2>INSPIRATION</h2>
+    <h3>Knowledge is when you learn something new everyday. Wisdom is when you let something go everyday.</h3>
+    <h5>-Ralph Waldo Emerson</h5>
+  </div>
+  <div id="menu2" class="tab-pane fade">
+    <h2>RANDOM THOUGHTS</h2>
+    <h3>It's an amazing time to be alive. We are working on transforming the car industry from internal combustion engines to electirc motors using batteries. Technology has gotten to a point that we are able to land rovers and probes on other plants and to have something man made make it all the way to intersteller space.</h3>
+  </div>
+</div>  
+  </div>
+
+<!------------FOOTER------------->
+<footer class="text-center">
+    <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a><br><br>
+    <p>Made by Raymond Province<br>Copyright 2018</p>
+    <p>
+      <a href="https://www.linkedin.com/in/raymond-province-950464171/" class="fab fa-linkedin"></a>
+      <a href="https://codepen.io/raymond2129/" class="fab fa-codepen"></a>
+      <a href="https://github.com/Raymond2129" class="fab fa-github"></a>
+        </p> 
+  </footer>
+
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
 <html lang="en-us">
 
 <head>
@@ -41,4 +270,4 @@
 
 </body>
 
-</html>
+</html> -->

@@ -37,7 +37,6 @@ body {
 img {
   float: left;
   padding: .5rem;
-
 }
 
 /** Image Fix **/
@@ -112,12 +111,12 @@ margin-right: auto;
 /* Portfolio page */
 
 #grid {
-  /* height: 200px;
-  width: 200px; */
+height: 200px;
+  width: 200px;
   display: grid;
   grid-gap: 5px;
   grid-template: repeat(4, 1fr) / repeat(2, 1fr);
-  grid-auto-flow: column;  /* or 'row', 'row dense', 'column dense' */
+  grid-auto-flow: column;
 }
 
 #item1 {
@@ -128,7 +127,7 @@ margin-right: auto;
   color: #030000;
   text-align: center;
   font-size: 22px;
-}
+} 
 
 #item2 {
   background-image: url(../images/rpggame.png);
