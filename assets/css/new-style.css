@@ -56,10 +56,20 @@
 .carousel-caption h3 {
     color: #fff !important;
 }
+/* ----Resume PDF---- */
+#resume-pdf {
+    width: 800px;
+    height: 600px;
+}
 
 @media (max-width: 600px) {
     .carousel-caption {
         display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+
+    #resume-pdf {
+        width: 500px;
+        height: 300px;
     }
 }
 /*------------------------*/
