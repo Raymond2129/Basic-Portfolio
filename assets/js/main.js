@@ -77,7 +77,7 @@ var TxtRotate = function(el, toRotate, period) {
         }
       },
       "color": {
-        "value": "#ffffff"
+        "value": "#001eff"
       },
       "shape": {
         "type": "circle",
@@ -95,7 +95,7 @@ var TxtRotate = function(el, toRotate, period) {
         }
       },
       "opacity": {
-        "value": 0.5,
+        "value": 1,
         "random": false,
         "anim": {
           "enable": false,
@@ -105,7 +105,7 @@ var TxtRotate = function(el, toRotate, period) {
         }
       },
       "size": {
-        "value": 3,
+        "value": 4,
         "random": true,
         "anim": {
           "enable": false,

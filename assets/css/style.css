@@ -40,6 +40,8 @@ section {
 canvas {
   display: block;
   vertical-align: bottom;
+  font-family: 'ZCOOL XiaoWei', serif;
+font-family: 'Mina', sans-serif;
 }
 
 .container {
@@ -59,14 +61,14 @@ canvas {
 
 h2#welcome {
   text-transform: none;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: 'ZCOOL XiaoWei', serif;
   color:white;
   font-size:40px;
   letter-spacing: 10px;
 }
 
 #iAm {
-  font-family: 'Kalam', cursive;
+  font-family: 'ZCOOL XiaoWei', serif;
   color:white;
   letter-spacing:5px;
   font-size:50px; 
@@ -95,7 +97,7 @@ h2#welcome {
 
 #developer {
   text-transform: uppercase;
-  font-family: 'Roboto', sans-serif; 
+  font-family: 'Mina', sans-serif;; 
   color:white;
 }
 
@@ -144,7 +146,7 @@ h2#welcome {
 }
 
 h2 {
-  font-family:'Roboto', sans-serif;
+  font-family: 'Mina', sans-serif;;
   color:#286364;
   letter-spacing:5px;
   text-transform: uppercase;
