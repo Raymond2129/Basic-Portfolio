@@ -1,126 +1,348 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Portfolio Webpage</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<!------------Goofle Fonts----------->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Lato" rel="stylesheet" type="text/css">
-  
-<!----Font Awesome----------->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-<link rel="stylesheet" type="text/css" href="assets/css/new-style.css">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-</head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
-<!-----------NAVBAR--------------->
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-      </button>
-      <a class="navbar-brand" href="#">Raymond Province</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="portfolio.html">PORTFOLIO</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
-            <span class="caret"></span>
-          </a>
-          <ul class="dropdown-menu">
-            <li><a href="certs.html">Certificates</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="media.html">Media</a></li> 
-          </ul>
-        </li>
-        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
-      </ul>
-    </div>
-  </div>
-</nav>  
-
-
-
-<!---------------------------------->
-<div id="about" class="container text-center">
-  <h3>About Me</h3>
- <p><img id="image1" src="assets/images/Ray1.jpg" alt="Raymond Province">
-  I currently work with the Division of Vocational Rehabilitation. My current duties are assisting our blind and low vision users with software and hardware recommendations, this is to ensure that they can complete their job effectively. I install and help with the initial setup of JAWS, Zoomtext, Dragon, Duxbury, Kurzweil, and NVDA. I have helped update and maintain the Division’s Intranet page and have also ensured that it is accessible to screen readers. I ensure that all HR documents to include but not limited to; policies, procedures and desk aids, are accessible to all of our staff. I am the purchasing agent for my team and work within a procurement application(CORE)to ensure that all of our software licensing is up to date and that all end of life equipment is replaced. I have also been in charge of helping migrate off of end of life servers (Windows Server 2008 r2) to our “cloud” solution. During this transition we are getting AD updated to have all user drive mappings ran with group policy instead of having scripts run at login.</p> 
-<br> 
- <p>Before I worked with DVR I worked for the Governors Office of Information and Technology for 6 years. My duties were to assist users with daily break fixes on Windows 7 enterprise, Windows 8 and Windows 8.1. I also assisted the Rural consortium with new computer replacement and daily break fixes. I ensure that all computers that I deploy have been imaged correctly and are secure to put onto the network. I helped transition the Division of Vocational Rehabilitation from CDHS to CDLE. I trained Robin Cline into his current position at 251 East 12th Avenue with the Department of Labor and Employment. I also work tickets from are CA service desk ticketing system. I am proficient in Office 2010, Office 2013, and Office 2016 on the Windows 7 operating system. I am knowledgeable on all of the computer operations, functions, and related peripherals. This includes JAWS, ZoomText, Dragon Naturally Speaking and apple Assistive Technology(on mobile devices). I also help create documentation for our technicians and users on how to properly install and use software. I am able read and interpret technical manuals, equipment diagrams, and specifications. I work collaboratively with a team of 7 individuals while demonstrating independent decision making.</p>
-  <br>
-
-   
-
-<!------------FOOTER------------->
-<footer class="text-center">
-  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
-    <span class="glyphicon glyphicon-chevron-up"></span>
-  </a><br><br>
-  <p>Made by Raymond Province<br>Copyright 2018</p>
-  <p>
-    <a href="https://www.linkedin.com/in/raymond-province-950464171/" class="fab fa-linkedin"></a>
-    <a href="https://codepen.io/raymond2129/" class="fab fa-codepen"></a>
-    <a href="https://github.com/Raymond2129" class="fab fa-github"></a>
-      </p> 
-</footer>
-
-</body>
-</html>
-
-
-
-
-
-
-<!-- <!DOCTYPE html>
-<html lang="en-us">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Raymond Province Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Raymond Province Portfolio Site</title>
+
+    <!--Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--materialize.css-->
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css" media="screen,projection" />
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Dosis:600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Handlee|Kalam" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+
+
 </head>
 
 <body>
-  
-  <div class="topnav">
-      <a class="active">Raymond Province</a>
-      <a class="header1" href="index.html">About</a>
-      <a class="header1" href="portfolio.html">Portfolio</a>
-      <a class="header1" href="contact.html">Contact</a>
+
+
+    <div class="header particles-demo cover-bg">
+
+        <div class="valign-wrapper h100">
+            <div class="header_bg" id="particles-js">
+                <canvas class="particles-js-canvas-el" width="2522" height="1826" style="width: 100%; height: 100%;"></canvas>
+            </div>
+            <div class="container overlay">
+                <h2 class="center-align" id="welcome">
+                    <!-- <span id="first">Raymond</span>
+                    <span id="last">Province</span> -->
+                    welcome!
+                </h2>
+                <h1 class="center-align" id="iAm">I am
+                    <span class="txt-rotate" id="rotating-words" data-period="2000" data-rotate='[ "Enter text", "Enter text", "Enter text"]'></span>
+                </h1>
+                <div class="social-links">
+                    <a href="https://github.com/Raymond2129
+                    " target="_blank">
+                        <img src="assets/images/github2.png" style="height:12px">
+                    </a>
+                    <a href="https://www.linkedin.com/in/raymond-province-950464171/
+                    " target="_blank">
+                        <img src="assets/images/linkedin2.png" style="height:12px">
+                    </a>
+                </div>
+
+            </div>
+
+
+        </div>
     </div>
+    <!-- ABOUT SECTION ================================================ -->
 
-  <section id="full">
+    <section id="section-about" style="border:none">
+        <div class="container" style="height:auto">
 
-    <h3>About Me</h3>
-    <hr>
-    <div id="rays-intro">
-      <p><img id="image1" src="assets/images/Ray1.jpg" alt="Raymond Province">
-        I currently work with the Division of Vocational Rehabilitation. My current duties are assisting our blind and low vision users with software and hardware recommendations, this is to ensure that they can complete their job effectively. I install and help with the initial setup of JAWS, Zoomtext, Dragon, Duxbury, Kurzweil, and NVDA. I have helped update and maintain the Division’s Intranet page and have also ensured that it is accessible to screen readers. I ensure that all HR documents to include but not limited to; policies, procedures and desk aids, are accessible to all of our staff. I am the purchasing agent for my team and work within a procurement application(CORE)to ensure that all of our software licensing is up to date and that all end of life equipment is replaced. I have also been in charge of helping migrate off of end of life servers (Windows Server 2008 r2) to our “cloud” solution. During this transition we are getting AD updated to have all user drive mappings ran with group policy instead of having scripts run at login.</p> 
-<br>
-     <p>Before I worked with DVR I worked for the Governors Office of Information and Technology for 6 years. My duties were to assist users with daily break fixes on Windows 7 enterprise, Windows 8 and Windows 8.1. I also assisted the Rural consortium with new computer replacement and daily break fixes. I ensure that all computers that I deploy have been imaged correctly and are secure to put onto the network. I helped transition the Division of Vocational Rehabilitation from CDHS to CDLE. I trained Robin Cline into his current position at 251 East 12th Avenue with the Department of Labor and Employment. I also work tickets from are CA service desk ticketing system. I am proficient in Office 2010, Office 2013, and Office 2016 on the Windows 7 operating system. I am knowledgeable on all of the computer operations, functions, and related peripherals. This includes JAWS, ZoomText, Dragon Naturally Speaking and apple Assistive Technology(on mobile devices). I also help create documentation for our technicians and users on how to properly install and use software. I am able read and interpret technical manuals, equipment diagrams, and specifications. I work collaboratively with a team of 7 individuals while demonstrating independent decision making. </p>
-     <br>
+            <div class="flexbox">
+                <div id="profile-div">
+                    <img class="background-image" id="profile-pic" src="assets/images/profile.jpg" alt="selfie">
+                </div>
 
-    </div>    
-  </section>
+                <div>
 
-  <div class="footer">
-  <br>
-   <p>Copyright 2018 Made by Raymond Province</p>
-   <br>
-  </div>
+                    <div class="about-text">
+                        <div>
+                            <h6 id="who">Who Am I</h6>
+                            <h4 id="about-me" class="left-align">Raymond Province</h4>
+                        </div>
+
+                        <p>A little bit about how I got into programming:</p>
+                        <p>
+                            I attended the University of Denver where I studied biology and then pursued a Masters degree in marine biology to later begin my career in  environmental consulting. I’ve always been drawn to science and understanding how things work and fit together, from the brain and body to entire ecosystems. However, I still felt I hadn’t found the right career path for me, until I began programming. 
+                            <br>
+                            <br> I took the opportunity to learn coding while in a sales role with a tech company here in Austin. From there I knew I <em>had</em> to pursue a programming career and so I completed a fullstack developer program at UT. While I am new to the industry, I have been coding for over a year now and am looking for my first professional role. 
+                            <br>
+                            <br>I feel my strengths lie in the frontend where I have an eye for detail and design, and the freedom to be creative. Thus I enjoy working with frontend frameworks like React and learning the latest technologies to enhance user experience. However, I understand the backend and have experience building fullstack applications using Node, Express, and both MongoDB and MySQL. Ultimately, I'm hungry to learn and am therefore open to all opportunities in UX/UI, frontend, and backend.
+                        </p>
+
+
+                        <span>
+                            <a class="btn" id="resume-btn" href="assets/Documents/Raymond-Province-Resume.pdf" target="_blank">Resume</a>
+                        </span>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION ================================================ -->
+
+    <section class="portfolio">
+        <h2 class="center-align">Portfolio</h2>
+        <div class="album">
+            <div class="container">
+                <div class="cards">
+
+
+                    <div class="card sticky-action" id="social-card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="assets/images/find image" style="height:200px">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title pb-2 text-center">&ltSocialCode/&gt</h3>
+                        </div>
+                        <div class="card-action">
+                            <a href="enter info" target="_blank">Demo</a>
+                            <a href="enter github link" target="_blank">GitHub</a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title">&ltSocialCode/&gt
+                                <i class="material-icons right">close</i>
+                            </span>
+                            <p class="card-text">
+                                Enter text
+                                <br>
+                                <b>Enter text </b>test
+                                <br>
+                                <b>Enter text</b>1234
+                                <br>
+                                <br>
+                                <b>Technologies used:</b> React.js, MongoDB, Node.js Express.js, Passport.
+                        </div>
+                    </div>
+
+
+                    <div class="card sticky-action" id="macros-card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="assets/images/macros.jpg" style="height:200px">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title pb-2 text-center">Macro+Meals</h3>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://project2-ey.herokuapp.com/" target="_blank">Demo</a>
+                            <a href="https://github.com/brittani1128/Macro-Meals" target="_blank">GitHub</a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title">Macro+Meals
+                                <i class="material-icons right">close</i>
+                            </span>
+                            <p class="card-text">
+                                Macro + Meals helps the user quickly determine their daily macro needs based upon their body composition and fitness goals,
+                                then search for and save recipes that meet this criteria.
+                                <br>
+                                <br>
+                                <b>Technologies used:</b> Node.js and Express.js, Sequelize, Handlebars, Passport.
+                        </div>
+                    </div>
+
+
+                    <div class="card sticky-action" id="got-card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="assets/images/got2.jpg" style="height:200px">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title text-center">GoT Trivia</h3>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://brittani1128.github.io/Trivia-Game/" target="_blank">Demo</a>
+                            <a href="https://github.com/brittani1128/Trivia-Game" target="_blank">GitHub</a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title">GoT Trivia
+                                <i class="material-icons right">close</i>
+                            </span>
+                            <p class="card-text">
+                                Game of Thrones themed trivia game using JavaScript for the logic and jQuery to manipulate the HTML.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="card sticky-action" id="tailwag-card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="assets/images/tailwag.jpg" style="height:200px">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title pb-2 text-center">TailWag</h3>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://brittani1128.github.io/ProjectOne/" target="_blank">Demo</a>
+                            <a href="https://github.com/brittani1128/ProjectOne" target="_blank">GitHub</a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title">TailWag
+                                <i class="material-icons right">close</i>
+                            </span>
+                            <p class="card-text">
+                                Designed as a mobile application for dog owners to find local dog parks and gathering areas. Implements Google maps API with
+                                a heatmap layer to show current check-in activity, and Firebase to store park information.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="card sticky-action" id="liri-card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="assets/images/liri.jpg" style="height:200px">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title pb-2 text-center">LIRI Bot</h3>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://github.com/brittani1128/liri-node-app" target="_blank">GitHub</a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title">LIRI Bot
+                                <i class="material-icons right">close</i>
+                            </span>
+                            <p class="card-text">
+                                A command line Node application that allows the user to search Spotify for songs, Bands in Town for concerts, and OMDB for
+                                movies.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="card sticky-action" id="friend-card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="assets/images/friend.jpg" style="height:200px">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title pb-2 text-center">Friend Finder</h3>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://immense-ridge-16573.herokuapp.com/" target="_blank">Demo</a>
+                            <a href="https://github.com/brittani1128/friend-finder" target="_blank">GitHub</a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title">Furrever Friend Finder
+                                <i class="material-icons right">close</i>
+                            </span>
+                            <p class="card-text">
+                                A compatibility-based pet finder that simulates a real world need of finding the best pet for you to adopt based on your
+                                lifestyle. Answer a few survey questions and you'll be matched with the pest pet currently
+                                available for adoption!</p>
+                        </div>
+                    </div>
+
+                    <!-- <div id="bamazon-card" class="col s6 l4">
+                        <div class="card sticky-action">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="assets/images/bamazon.jpg" style="height:200px width:200px">  
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title pb-2 text-center">Bamazon</h3>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://github.com/brittani1128/bamazon" target="_blank">GitHub</a>
+                            </div> 
+                            <div class="card-reveal">
+                                <span class="card-title">Bamazon<i class="material-icons right">close</i></span>
+                                <p class="card-text">
+                                    A CLI application simulating an online storefront (totally not Amazon) using Node.js and MySQL to take order from customers,
+                                    deplete stock, and allow managers to update stock and products.</p>
+                            </div>    
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION ================================================ -->
+
+    <section class="contact-info">
+        <div class="container">
+            <div class="row">
+                <h2 class="center-align" id="contact">Hire Me</h2>
+                <div class="flexbox">
+
+                    <div class="info-flexbox">
+                        <div class="item">
+                            <h6>Phone:</h6>
+                            <p>(720)244-0825</p>
+                        </div>
+                        <div class="item">
+                            <h6>Email:</h6>
+                            <p>Raymond2129@gmail.com</p>
+                        </div>
+                        <div class="item">
+                            <h6>Location:</h6>
+                            <p>Denver, CO</p>
+                        </div>
+                    </div>
+                    <div>
+                        <form action="https://formspree.io/brittani1128@gmail.com" method="POST">
+                            <div class="controls">
+                                <div class="row">
+                                    <div class="col s12 m6">
+                                        <div class="form-group">
+                                            <input class="input" id="form-name" type="text" name="name" placeholder="Name" required />
+                                        </div>
+                                    </div>
+                                    <div class="col s12 m6">
+                                        <div class="form-group">
+                                            <input class="input" id="form-email" type="email" name="_replyto" placeholder="Email" required />
+                                        </div>
+                                    </div>
+                                    <div class="col s12 m12">
+                                        <div class="form-group">
+                                            <input class="input" id="form-subject" type="text" name="subject" placeholder="Subject" />
+                                        </div>
+                                    </div>
+                                    <div class="col s12 m12">
+                                        <div class="form-group">
+                                            <textarea class="input" id="form-message" type="text" name="message" placeholder="Message"></textarea>
+                                        </div>
+                                    </div>
+                                    <input type="hidden" name="_next" value="https://brittani1128.github.io/Portfolio/" />
+                                    <input type="text" name="_gotcha" style="display:none" />
+                                    <div class="col m12">
+                                        <button class="btn submit">
+                                            <input type="submit" value="Send Email">
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- JavaScript -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+    <script src="assets/js/particles.js"></script>
+    <script src="assets/js/main.js"></script>
+
+
 
 </body>
 
-</html> -->
+</html>
