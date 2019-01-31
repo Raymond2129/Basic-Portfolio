@@ -1,5 +1,6 @@
 body {
   overflow-x:hidden;
+  /* background-attachment: fixed; */
 }
 
 
@@ -106,7 +107,7 @@ h2#welcome {
 .social-links {
   width:100px;
   margin:auto;
-  background-color:#19353B;
+  background-color:#1E3237;
   padding:auto;
   border-radius:30px;
   /* float:right; */
@@ -128,7 +129,7 @@ h2#welcome {
 /* ABOUT */ 
 
 #section-about {
-  background:#19353B;
+  background:#01393a;
 }
 
 .flexbox {
@@ -189,8 +190,8 @@ h2 {
 }
 
 #resume-btn:hover {
-  border:1px solid #bdc2bf;
-  background:#bdc2bf;
+  border:1px solid #286364;
+  background:#286364;
  
 }
 
@@ -205,7 +206,7 @@ h2 {
 .portfolio {
   color: #bdc2bf;
   min-height:100%;
-  background: #19353B;
+  background: #01393a;
 }
 #port-header {
   color: #bdc2bf;
@@ -274,7 +275,7 @@ h3 {
 /* CONTACT */
 
 .contact-info { 
-  background:#222;
+  background:#161617;
   padding:10px;
   height:auto;
 }
@@ -301,7 +302,7 @@ h3 {
 #form-email,
 #form-subject,
 #form-message {
-  background:#19353B;
+  background:#01393a;
   border: 1px solid #222;
   border-radius: 25px;
   padding-left:15px;

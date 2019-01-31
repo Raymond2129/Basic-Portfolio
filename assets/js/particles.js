@@ -108,7 +108,7 @@ var pJS = function(tag_id, params){
             }
           },
           bubble:{
-            distance: 200,
+            distance: 300,
             size: 80,
             duration: 0.4
           },
